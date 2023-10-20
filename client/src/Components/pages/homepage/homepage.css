@@ -1,0 +1,11 @@
+.content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.postContainer{
+    flex: 0 0 80%;
+}
+.sidebarContainer{
+    flex: 0 0 20%;
+}

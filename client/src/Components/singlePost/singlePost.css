@@ -1,0 +1,80 @@
+.singlePost{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 10px;
+    border: 1px solid blue;
+    align-self: center;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    overflow :auto;
+}
+
+.singlePostTitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    /* border: 1px solid black; */
+    font-weight: 400;
+}
+
+.singlePostAuthorDetails{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    /* border: 1px solid red; */
+    gap: 10px;
+}
+.singlePostAuthorName{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.editItems{
+    display: flex;
+    padding: 2px;
+    width: 50vw;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.likeAndComment{
+    display: flex;
+    gap: 20px;
+}
+.editAndDelete{
+    display: flex;
+}
+.edit-Icons{
+    font-size: 30px;
+    cursor: pointer;
+}
+.editButton{
+    border-radius: 2px;
+    width: 60%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.singlePostImage{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contactAuthorIcons{
+    display: flex;
+    font-size: 25px;
+    gap: 10px;
+}
+.singlePostDesc{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    width: 50vw;
+}
+.singlePostDescInput{
+    width: 50vw;
+}

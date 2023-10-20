@@ -1,0 +1,11 @@
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.heading{
+    color: rgb(175, 123, 32);
+    margin-left: 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2rem;
+}
